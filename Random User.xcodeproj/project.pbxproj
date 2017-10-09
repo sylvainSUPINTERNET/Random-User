@@ -17,6 +17,7 @@
 		3A615AA71F8B6BD700DAF283 /* Exercice_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A615AA61F8B6BD700DAF283 /* Exercice_3.swift */; };
 		3A615AA91F8B6C0A00DAF283 /* Exercice_4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A615AA81F8B6C0A00DAF283 /* Exercice_4.swift */; };
 		3A615AAB1F8B6C3000DAF283 /* Exercice_5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A615AAA1F8B6C3000DAF283 /* Exercice_5.swift */; };
+		3A615AAD1F8B772300DAF283 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A615AAC1F8B772300DAF283 /* ModalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		3A615AA61F8B6BD700DAF283 /* Exercice_3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercice_3.swift; sourceTree = "<group>"; };
 		3A615AA81F8B6C0A00DAF283 /* Exercice_4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercice_4.swift; sourceTree = "<group>"; };
 		3A615AAA1F8B6C3000DAF283 /* Exercice_5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercice_5.swift; sourceTree = "<group>"; };
+		3A615AAC1F8B772300DAF283 /* ModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				3A615AA61F8B6BD700DAF283 /* Exercice_3.swift */,
 				3A615AA81F8B6C0A00DAF283 /* Exercice_4.swift */,
 				3A615AAA1F8B6C3000DAF283 /* Exercice_5.swift */,
+				3A615AAC1F8B772300DAF283 /* ModalViewController.swift */,
 			);
 			path = "Random User";
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 				3A615AA71F8B6BD700DAF283 /* Exercice_3.swift in Sources */,
 				3A615AA91F8B6C0A00DAF283 /* Exercice_4.swift in Sources */,
 				3A615A791F8B6B5400DAF283 /* AppDelegate.swift in Sources */,
+				3A615AAD1F8B772300DAF283 /* ModalViewController.swift in Sources */,
 				3A615AAB1F8B6C3000DAF283 /* Exercice_5.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

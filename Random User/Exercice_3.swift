@@ -107,14 +107,14 @@ class Person: Existence {
     }
     
     var gender: Gender
-    var firstanme: String
+    var firstname: String
     var lastname: String
     var email: Email
     
     init(firstname: String, lastname: String, gender: Gender, email: String, birthdate: (date: String, format: String)) {
         
         self.gender = .Male
-        self.firstanme = firstname
+        self.firstname = firstname
         self.lastname = lastname
         self.email = Email(str: email)
         
@@ -125,7 +125,7 @@ class Person: Existence {
     init(firstname: String, lastname: String, gender: Gender, email: String, birthdate: Date) {
         
         self.gender = .Male
-        self.firstanme = firstname
+        self.firstname = firstname
         self.lastname = lastname
         self.email = Email(str: email)
         
@@ -135,7 +135,7 @@ class Person: Existence {
     
     func show() {
         
-        print("firstname : \(self.firstanme) ")
+        print("firstname : \(self.firstname) ")
         print("lastname : \(self.lastname) ")
         
         switch self.gender {

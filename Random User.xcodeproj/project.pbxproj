@@ -14,6 +14,9 @@
 		3A615A831F8B6B5400DAF283 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A615A811F8B6B5400DAF283 /* LaunchScreen.storyboard */; };
 		3A615A8E1F8B6B5400DAF283 /* Random_UserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A615A8D1F8B6B5400DAF283 /* Random_UserTests.swift */; };
 		3A615A991F8B6B5400DAF283 /* Random_UserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A615A981F8B6B5400DAF283 /* Random_UserUITests.swift */; };
+		3A615AA71F8B6BD700DAF283 /* Exercice_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A615AA61F8B6BD700DAF283 /* Exercice_3.swift */; };
+		3A615AA91F8B6C0A00DAF283 /* Exercice_4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A615AA81F8B6C0A00DAF283 /* Exercice_4.swift */; };
+		3A615AAB1F8B6C3000DAF283 /* Exercice_5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A615AAA1F8B6C3000DAF283 /* Exercice_5.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		3A615A941F8B6B5400DAF283 /* Random UserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Random UserUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A615A981F8B6B5400DAF283 /* Random_UserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Random_UserUITests.swift; sourceTree = "<group>"; };
 		3A615A9A1F8B6B5400DAF283 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A615AA61F8B6BD700DAF283 /* Exercice_3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercice_3.swift; sourceTree = "<group>"; };
+		3A615AA81F8B6C0A00DAF283 /* Exercice_4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercice_4.swift; sourceTree = "<group>"; };
+		3A615AAA1F8B6C3000DAF283 /* Exercice_5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercice_5.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				3A615A7F1F8B6B5400DAF283 /* Assets.xcassets */,
 				3A615A811F8B6B5400DAF283 /* LaunchScreen.storyboard */,
 				3A615A841F8B6B5400DAF283 /* Info.plist */,
+				3A615AA61F8B6BD700DAF283 /* Exercice_3.swift */,
+				3A615AA81F8B6C0A00DAF283 /* Exercice_4.swift */,
+				3A615AAA1F8B6C3000DAF283 /* Exercice_5.swift */,
 			);
 			path = "Random User";
 			sourceTree = "<group>";
@@ -260,7 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A615A7B1F8B6B5400DAF283 /* ViewController.swift in Sources */,
+				3A615AA71F8B6BD700DAF283 /* Exercice_3.swift in Sources */,
+				3A615AA91F8B6C0A00DAF283 /* Exercice_4.swift in Sources */,
 				3A615A791F8B6B5400DAF283 /* AppDelegate.swift in Sources */,
+				3A615AAB1F8B6C3000DAF283 /* Exercice_5.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +517,7 @@
 				3A615A9F1F8B6B5400DAF283 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3A615AA01F8B6B5400DAF283 /* Build configuration list for PBXNativeTarget "Random UserTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +526,7 @@
 				3A615AA21F8B6B5400DAF283 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3A615AA31F8B6B5400DAF283 /* Build configuration list for PBXNativeTarget "Random UserUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +535,7 @@
 				3A615AA51F8B6B5400DAF283 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -48,6 +48,7 @@ class ModalViewController: UIViewController {
             let data = try? Data(contentsOf: url!)
             let image: UIImage = UIImage(data: data!)!
             pictureUser.image = image
+            pictureUser.contentMode = .scaleAspectFit
             
         }
         

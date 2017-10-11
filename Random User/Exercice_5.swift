@@ -20,7 +20,7 @@ extension ApiManager {
             let picture = result["picture"] as! [String:String]
             
             
-            if let firstname = name["first"], let lastname = name["last"], let email = result["email"], let gender = result["gender"], let birthdate = result["dob"] , let url_pic = picture["medium"]{
+            if let firstname = name["first"], let lastname = name["last"], let email = result["email"], let gender = result["gender"], let birthdate = result["dob"] , let url_pic = picture["large"]{
                 
                 let person = Person(
                     firstname: firstname,

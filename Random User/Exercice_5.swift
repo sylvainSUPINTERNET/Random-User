@@ -17,14 +17,18 @@ extension ApiManager {
             
             let name = result["name"] as! [String: String]
             
-            if let firstname = name["first"], let lastname = name["last"], let email = result["email"], let gender = result["gender"], let birthdate = result["dob"] {
+            let picture = result["picture"] as! [String:String]
+            
+            
+            if let firstname = name["first"], let lastname = name["last"], let email = result["email"], let gender = result["gender"], let birthdate = result["dob"] , let url_pic = picture["medium"]{
                 
                 let person = Person(
                     firstname: firstname,
                     lastname: lastname,
                     gender: Person.Gender(rawValue: gender as! String)!,
                     email: email as! String,
-                    birthdate: (date: birthdate as! String, format: "yyyy-MM-dd HH:mm:ss")
+                    birthdate: (date: birthdate as! String, format: "yyyy-MM-dd HH:mm:ss"),
+                    url_pic: url_pic as! String
                 )
                 
                 completion(person)

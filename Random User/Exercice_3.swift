@@ -110,24 +110,27 @@ class Person: Existence {
     var firstname: String
     var lastname: String
     var email: Email
+    var url_pic: String
     
-    init(firstname: String, lastname: String, gender: Gender, email: String, birthdate: (date: String, format: String)) {
+    init(firstname: String, lastname: String, gender: Gender, email: String, birthdate: (date: String, format: String), url_pic: String) {
         
         self.gender = .Male
         self.firstname = firstname
         self.lastname = lastname
         self.email = Email(str: email)
+        self.url_pic = url_pic
         
         
         super.init(birthdate: birthdate.date.toDate(format: birthdate.format))
     }
     
-    init(firstname: String, lastname: String, gender: Gender, email: String, birthdate: Date) {
+    init(firstname: String, lastname: String, gender: Gender, email: String, birthdate: Date, url_pic: String) {
         
         self.gender = .Male
         self.firstname = firstname
         self.lastname = lastname
         self.email = Email(str: email)
+        self.url_pic = url_pic
         
         super.init(birthdate: birthdate)
         
